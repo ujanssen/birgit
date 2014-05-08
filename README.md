@@ -1,4 +1,4 @@
 birgit
 ======
 
-A set of puppet modules
+A set of puppet modules.
