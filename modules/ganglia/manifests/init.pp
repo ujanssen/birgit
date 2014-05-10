@@ -11,7 +11,7 @@ class ganglia ($node_type = 'master') {
 
 	file { "/tmp/ganglia-gmond.conf":
         ensure => file,
-        source => "puppet:///modules/ganglia/gmond-${node_type}.conf"
+        source => "puppet:///modules/ganglia/gmond-${node_type}.conf",
         notify => Service["ganglia-monitor'"]
     }
 }
