@@ -3,6 +3,9 @@ birgit
 
 A set of puppet modules.
 
+Install
+-------
+
 Install the puppet files on puppet master:
 
 	apt-get install puppetmaster
@@ -14,6 +17,9 @@ Install the repo into the `/etc` directory:
 Start the puppet master:
 
 	service puppetmaster start
+
+Test
+----
 
 Test the puppet agent:
 
