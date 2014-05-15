@@ -1,7 +1,7 @@
 birgit
 ======
 
-A set of puppet modules.
+A set of useful puppet modules.
 
 Install
 -------
