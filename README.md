@@ -12,6 +12,7 @@ Install the puppet files on puppet master:
 
 Install the repo into the `/etc` directory:
 
+	mv /etc/puppet /tmp
 	git clone git@github.com:ujanssen/birgit.git /etc/puppet
 
 Start the puppet master:
