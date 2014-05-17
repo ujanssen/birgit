@@ -25,6 +25,7 @@ Test
 Test the puppet agent on puppet master:
 
 	export PUPPET_MASTER=$(facter hostname).$(facter domain)
+	puppet agent --enable
 	puppet agent -t  --server $PUPPET_MASTER
 
 
