@@ -22,7 +22,7 @@ Start the puppet master:
 Test
 ----
 
-Test the puppet agent:
+Test the puppet agent on puppet master:
 
 	export PUPPET_MASTER=$(facter hostname).$(facter domain)
 	puppet agent -t  --server $PUPPET_MASTER
