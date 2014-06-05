@@ -9,3 +9,9 @@ node 'keller.fritz.box' {
     	node_type => 'node',
     }
 } 
+
+node 'brix.fritz.box' {
+	class { 'ganglia':
+    	node_type => 'node',
+    }
+} 
