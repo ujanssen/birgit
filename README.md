@@ -27,6 +27,15 @@ Test the puppet agent on puppet master:
 	export PUPPET_MASTER=$(facter hostname).$(facter domain)
 	puppet agent --enable
 	puppet agent -t  --server $PUPPET_MASTER
+	
+Test on client:
+
+	puppet agent --enable
+	puppet agent -t --server=nas.fritz.box
+	
+On puppet master:
+
+	sudo puppet cert sign --all
 
 
 License
