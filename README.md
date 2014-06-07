@@ -38,6 +38,14 @@ On puppet master:
 	sudo puppet cert sign --all
 
 
+Install ntp module:
+
+	puppet module install puppetlabs-ntp
+
+	/etc/puppet/modules
+	└─┬ puppetlabs-ntp (v3.1.1)
+  	  └── puppetlabs-stdlib (v4.2.2)
+
 License
 -------
 	
