@@ -1,3 +1,5 @@
+include '::ntp'
+
 node 'nas.fritz.box' {
 	class { 'ganglia':
     	node_type => 'master',
@@ -15,5 +17,3 @@ node 'brix.fritz.box' {
     	node_type => 'node',
     }
 } 
-
-include '::ntp'
