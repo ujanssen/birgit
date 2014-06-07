@@ -14,4 +14,5 @@ node 'brix.fritz.box' {
 	class { 'ganglia':
     	node_type => 'node',
     }
+    include '::ntp'
 } 
